@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Ortiz | Portfolio</title>
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+    <style>
+        body {
+            background: #080808;
+            color: white;
+            min-height: 100vh;
+        }
+
+        .portfolio-header {
+            padding: 65px 20px 35px;
+        }
+
+        .gem-title {
+            color: white;
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: 3px;
+        }
+
+        .gem-subtitle {
+            color: #999;
+            margin-top: 10px;
+        }
+
+        .section-heading {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 22px;
+        }
+
+        .project-card {
+            background: #141414;
+            border: 1px solid #292929;
+            border-radius: 12px;
+            overflow: hidden;
+            height: 100%;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        /* GLOW EFFECT */
+        .project-card:hover,
+        .project-card:focus-within {
+            transform: translateY(-8px);
+            border-color: #a855f7;
+            box-shadow:
+                0 0 8px #a855f7,
+                0 0 20px rgba(168, 85, 247, 0.5),
+                0 0 40px rgba(168, 85, 247, 0.2);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            background: #242424;
+            display: block;
+        }
+
+        .image-placeholder {
+            height: 210px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #191919, #292929);
+            color: #777;
+        }
+
+        .project-content {
+            padding: 22px;
+        }
+
+        .project-title {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .project-description {
+            color: #aaa;
+            font-size: 0.9rem;
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+
+        .project-tag {
+            background: #292929;
+            color: #c084fc;
+            border-radius: 20px;
+            padding: 5px 11px;
+            font-size: 0.75rem;
+            display: inline-block;
+            margin: 3px;
+        }
+
+        .project-link {
+            display: inline-block;
+            color: #c084fc;
+            margin-top: 18px;
+            font-weight: 600;
+        }
+
+        .project-link:hover {
+            color: white;
+        }
+
+        .portfolio-section {
+            padding: 30px 20px;
+        }
+
+        .divider {
+            border: none;
+            height: 1px;
+            background: #292929;
+            margin: 20px 0 35px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <section class="portfolio-header has-text-centered">
+        <p class="has-text-grey-light">Davi Ortiz</p>
+
+        <h1 class="gem-title"> PORTFOLIO</h1>
+
+        <p class="gem-subtitle">
+            Media production and Sports analytics
+        </p>
+    </section>
+
+    <div class="container">
+
+        <!-- MEDIA PROJECTS -->
+        <section class="portfolio-section">
+            <h2 class="section-heading">01 / Media Projects</h2>
+            <hr class="divider">
+
+            <div class="columns is-multiline">
+
+                <!-- PROJECT CARD 1 -->
+                <div class="column is-4">
+                    <div class="project-card">
+                        <div class="image-placeholder">
+                            <img src="P1940200.PNG" alt="picture of graphic">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">
+                                Raleigh FireBirds
+                            </h3>
+
+                            <p class="project-description">
+                               Sports Graphics 
+                            </p>
+
+                            <span class="project-tag">Photography</span>
+                            <span class="project-tag">Adobe Photoshop</span>
+
+                            <br>
+
+                            <a href="https://www.instagram.com/p/DXUfXNAFj46/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="project-card">
+                        <div class="image-placeholder">
+                            <img src="pembroke (1).png" alt="picture of graphic">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">
+                                UNC Pembroke Program Report
+                            </h3>
+
+                            <p class="project-description">
+                               Sports Graphics 
+                            </p>
+
+                            <span class="project-tag">Media Design</span>
+                            <span class="project-tag">Adobe Photoshop</span>
+
+                            <br>
+
+                            <a href="https://www.instagram.com/p/DdjJ1g1KQfp/?utm_source=ig_web_copy_link" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DUPLICATE THIS CARD TO ADD MORE PROJECTS -->
+
+            </div>
+        </section>
+
+        <!-- ANALYTICS PROJECTS -->
+        <section class="portfolio-section">
+            <h2 class="section-heading">02 / Analytics Projects</h2>
+            <hr class="divider">
+
+            <div class="columns is-multiline">
+
+                <!-- PROJECT CARD 1 -->
+                <div class="column is-4">
+                    <div class="project-card">
+                        <div class="image-placeholder">
+                            <img src="indy.png" alt="picture of graphic">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">
+                               Indya Nivar's Turnover to Team Outcome Correlation 
+                            </h3>
+
+                            <p class="project-description">
+                                Correlation of Indya Nivar's turnovers and UNC Chapel Hill' s wining probability. 
+                            </p>
+
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Github</span>
+
+                            <br>
+
+                            <a href="https://1nt3grity.github.io/Sports-Performance-Analytics-Project/Untitled.html" class="project-link">
+                                View Project →
+                              
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DUPLICATE THIS CARD TO ADD MORE PROJECTS -->
+                 <div class="column is-4">
+                    <div class="project-card">
+                        <div class="image-placeholder">
+                            <img src="GEM.png" alt="picture of graphic">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">
+                               Gem Index Media 
+                            </h3>
+
+                            <p class="project-description">
+                                Database system that allows users to compare and anlyze sports programs
+                            </p>
+
+                            <span class="project-tag">Html</span>
+                            <span class="project-tag">Java script + more</span>
+
+                            <br>
+
+                            <a href="https://gemindexhoops.com/" class="project-link">
+                                View Project →
+                              
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        GEM MEDIA © 2026 | Davi Ortiz
+    </footer>
+
+</body>
+</html>
